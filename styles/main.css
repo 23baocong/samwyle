@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* set 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12%;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.6rem;
+}
+
+.hamburger-nav, .cancel, .text-mob, .nav-main li:first-child, button img, .see-address, .maps-mob {
+    display: none;
+}
+
+.logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-family: Cedarville Cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 6.1rem;
+    color: #000000;
+    margin-left: 1.3rem;
+}
+
+.nav-main {
+    width: 60%;
+}
+.nav-main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-main li {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 1.35rem 0;
+    min-width: 13rem;
+    text-align: center;
+}
+
+.nav-main li:last-child {
+    background-color: #2D635E;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+h4 {
+    font-family: Cedarville Cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8rem;
+    line-height: 5.3rem;
+    color: #444A4A;
+}
+
+h1 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.3rem;
+    line-height: 6.3rem;
+    color: #000000;
+    margin-top: 2.6rem;
+}
+
+button {
+    background-color: #2D635E;
+    border-radius: 5px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    padding: 1.4rem 0;
+    min-width: 23.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.order-here {
+    margin-top: 2.6rem;
+}
+.title {
+    text-align: left;
+}
+
+.title + div {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.arrow {
+    background-color: #F4F7F5;
+    padding: 7.5rem 6.7rem;
+    align-self: flex-end;
+}
+
+.grinder {
+    background-color: #E3EBE7;
+}
+
+.social {
+    /* display vertical */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin */
+    margin-left: 4rem;
+}
+
+.social h3 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    color: #444A4A;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.item-2 {
+    margin-top: 17rem;
+}
+
+.item-3 {
+    margin-top: 10rem;
+}
+
+.item-4 {
+    margin-top: 7rem;
+    padding: 4.5rem 0;
+    background-color: #F4F7F7;
+}
+
+.item-5 {
+    margin-top: 13rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.banner-item-2 {
+    position: relative;
+    background-color: #FAE9E0;
+    margin-right: 10rem;
+}
+
+.banner-item-2 h4 {
+    position: absolute;
+    top: -2.4rem;
+    left: -1.4rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+h2 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+    color: #000000;
+}
+
+.item h5 {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+}
+
+.content-item-2 {
+    text-align: left;
+}
+
+.content-item-3 {
+    margin-right: 10rem;
+    text-align: left;
+}
+
+.banner-item-3 {
+    position: relative;
+    background-color: #E3EBE7;
+    padding: 0 10rem 0 7rem;
+}
+
+.banner-item-3 h4 {
+    position: absolute;
+    top: -2.6rem;
+    right: -1.8rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.item-4 h3 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #000000;
+}
+
+.type {
+    margin: 0 1.5rem;
+    padding: 4.5rem 5.2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maps {
+    position: relative;
+}
+.maps img {
+    border-radius: 5px;
+}
+
+.maps h4 {
+    position: absolute;
+    top: -2.1rem;
+    right: -1.8rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.line {
+    margin-top: 4.2rem;
+    margin-left: 4.2rem;
+}
+
+.contact-info {
+    padding-top: 2.2rem;
+    margin-left: 3.2rem;
+    text-align: left;
+}
+
+.contact-info p {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 2.1rem;
+}
+
+.contact-info li {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+    margin-bottom: 1.6rem;
+}
+
+footer {
+    margin-top: 11rem;
+}
+
+footer h5 {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+}
+
+.heading-content {
+    margin-bottom: 2.5rem;
+}
+
+.content-item-3 h5 {
+    margin-bottom: 2.5rem;
+}
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-social img {
+    width: 32px; margin-bottom: 1.4rem;
+}
